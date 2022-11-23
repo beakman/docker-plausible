@@ -33,8 +33,6 @@ services:
       - plausible_db
       - plausible_events_db
       - mail
-    env_file:
-      - plausible-conf.env
     networks:
       - internal
       - traefik
